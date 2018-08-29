@@ -28,7 +28,7 @@ public class TwoDSpiral {
 	enum DIRECTION {
 		LEFT,RIGHT,UP,DOWN;
 	}
-  public static int[][] spiral(int n){
+  public static int[][] spiral(int n){   
 	  int[][] matrix = new int[n][n];
 	  DIRECTION DEFAULT = DIRECTION.RIGHT;
 	  int x=0,y=0;
